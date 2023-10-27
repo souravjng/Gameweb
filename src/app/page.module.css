@@ -1,4 +1,15 @@
 .main{
+  width: 100%;
+  height: 2000px;
+}
+
+
+
+
+
+
+
+.main1{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -42,26 +53,57 @@
   background-color: rgba(255, 255, 255, 0.336);
 }
 
-.box2{flex:4.5;
-      background:url('../../public/kratos.png');
-      background-position-x: 100px;
-      position: relative;
-      top: -70px;
-      height: 680px;
-      background-position-y: 0px;
-      background-repeat: no-repeat;
-      background-size: 440px;
-      filter: drop-shadow(50px 50px 130px rgb(255, 204, 0));
-      animation: slideInLeft 1s ease-in-out;
-      animation: colorChange 30s linear infinite;
+.box2 {
+  flex: 4.5;
+  background: url('../../public/kratos.png');
+  background-position-x: 100px;
+  height: 680px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  margin: 20px 0px 0px 0px;
+  background-size: 440px;
+  filter: drop-shadow(50px 50px 130px rgb(255, 204, 0));
+  animation:  colorChange 30s linear infinite;
 }
-@keyframes colorChange {
-  0% { filter: drop-shadow(50px 50px 130px rgba(77, 250, 92, 0.755)); }
-  30% { filter: drop-shadow(50px 50px 130px rgb(251, 70, 70)); }
-  70% { filter: drop-shadow(50px 50px 130px rgb(0, 179, 255)); }
-  100% { filter: drop-shadow(50px 50px 130px rgb(47, 255, 0)); }
+
+@keyframes colorChange { 
+0% {filter: drop-shadow(50px 50px 130px rgba(77, 250, 92, 0.755));}
+30% {filter: drop-shadow(50px 50px 130px rgb(251, 70, 70));}
+70% {filter: drop-shadow(50px 50px 130px rgb(0, 179, 255)); } 
+100% { filter: drop-shadow(50px 50px 130px rgb(47, 255, 0)); }}
+
+
+.main2{
+  width: 100%;
+  height: 450px;
+  background: url('../../public/main2.jpg');
+  background-size:400px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
 }
-@keyframes slideInLeft {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(0); }
+.main2 h1{
+  width: 700px;
+  position: absolute;
+  right: 100px;
+  font-size: 90px;
+  margin: 170px 0px 0px 0px;
+
+}
+.main3{
+  margin: 100px 0px 0px 0px ;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.main3 h1{font-size: 50px; margin: 0px 0px 50px 0px ;text-align: center;background-color: red;}
+
+.info{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
 }

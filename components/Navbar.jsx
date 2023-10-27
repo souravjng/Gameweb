@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className={style.bttn}><Link className={style.link} href="/contact"><h3>Contact</h3></Link></div>
     </div>
     <div className={style.box3}>
-      <div className={style.box3div}><h1>Login</h1><div></div></div>
+      <div className={style.box3div}><h1>Login</h1><div><h1>X</h1></div></div>
     </div>
     </div>
   )
