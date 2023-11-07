@@ -1,0 +1,20 @@
+.main{
+    margin: 60px 0px 0px 0px ;
+    width: 1520px;
+    display: flex;
+    background:linear-gradient(to right, #0d47a1a1, rgb(0, 0, 0));
+    
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100px;
+    margin:20px 0px 0px 40px;
+   font-size: 60px;
+   color: #ffffff;
+   animation: slideInLeft 0.3s ease-in-out;   
+    @keyframes slideInLeft {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }}} 
+}
+
+

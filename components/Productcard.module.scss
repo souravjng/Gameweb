@@ -1,0 +1,30 @@
+.main{
+    width: 740px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    margin: 20px 20px 0px 30px;
+    animation: transformAndRotate 1s ease-in-out 1;}
+   @keyframes transformAndRotate {
+0% {transform:  rotate(0deg) scale(0); }
+100% {transform:  rotate(360deg) scale(1);}
+}
+.image{
+    position: absolute;
+    width: 300px;
+    border-radius: 33px;
+    height: 300px;
+}
+.details{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+    
+h1{font-size: 17px;text-align: center;background-color: rgba(128, 128, 128, 0.615);color:#ffffff ; border-radius: 14px 14px 0px 0px;}
+p{ font-size: 18px;text-align: center;margin-top: 225px;background-color: grey;border-radius: 0px 0px 14px 14px;}
+}

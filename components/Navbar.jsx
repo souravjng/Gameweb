@@ -1,5 +1,6 @@
+"use client"
 import React from 'react';
-import style from './Navbar.module.css';
+import style from './Navbar.module.scss';
 import Link from 'next/link';
 
 const Navbar = () => {

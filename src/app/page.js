@@ -1,4 +1,4 @@
-import styles from './page.module.css';
+import styles from './page.module.scss';
 import React from 'react';
 import Card from '../../components/Card';
 import img1 from '../../public/attack2.gif';
@@ -33,7 +33,7 @@ const Home = () => {
 
   <div className={styles.main2}><h1>"Don't Be Sorry. Be Better."</h1></div>
   <div className={styles.main3}>
-    <h1>What's New</h1>
+    <h1 style={{backgroundColor:'#8d99ae35'}}>What's New</h1>
     <div className={styles.info}>
     {data.map((item, index) => (
         <Card key={index} {...item} />

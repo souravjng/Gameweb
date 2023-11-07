@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './other.module.css';
+import styles from './other.module.scss';
 
 const Other = () => {
   return (
