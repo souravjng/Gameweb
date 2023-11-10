@@ -1,29 +1,34 @@
+.supermain{
+    width: 1520px;
+    margin: auto;
+}
 
 
 
-.main{
+.main1{
     width: 1520px;
     height: 550px;
     margin: 85px 0px 0px 0px;
     border-radius: 10px;
     display: flex;
-    flex: row;
+    flex: row; 
+    position: relative;
 }
-.btn1{padding: 20px 0px 0px 100px;
+.btn1{padding: 10px 0px 0px 100px;
     
     cursor: pointer;
     color: rgb(255, 255, 255);
     position: absolute;
     border-radius: 2px 0px 0px 3333px;
     width: 200px;
-    height: 70px;
+    height: 55px;
     top: 300px;
     left: 560px;
-    text-decoration: none;;
+    text-decoration: none;
     background-color: rgb(0, 0, 0);
     font-size: 40px;
 &:hover{background-color: white;color: black;}}
-.btn2{padding: 20px 0px 0px 10px;
+.btn2{padding: 10px 0px 0px 10px;
     z-index: 1;
     text-decoration: none;;
     cursor: pointer;
@@ -32,7 +37,7 @@
     color: rgb(0, 0, 0);
     border-radius: 0px 3333px 2px 0px;
     width: 200px;
-    height: 70px;
+    height: 55px;
     top: 300px;
     left: 760px;
     font-size: 40px;
@@ -45,3 +50,82 @@
     display: flex;
     flex-direction: row;
 }
+.main3{
+    background: url('../../../public/ps5games.jpg');
+    margin: 50px 0px 0px 0px;
+    background-size: 600px;
+    width: 1520px;
+    height: 300px;
+}
+.main4{
+    margin: 50px 0px 0px 0px;
+    width: 1520px;
+    background: url('../../../public/headphone.jpg');
+    background-size: 1520px;
+    background-position-y: -270px;
+    background-repeat:no-repeat;
+    position: relative;
+    height: 400px;
+h1{
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    margin: 80px 0px 0px 0px ;
+    right: 190px;
+}
+a{border: 1px solid white;
+    padding: 10px 10px ;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 230px;
+    background-color: white;
+    height: 50px;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    margin: 230px 0px 0px 0px ;
+    right: 250px;
+    &:hover{
+            background-color: #000000;
+            color: white;
+        }}}
+
+    
+.main5{
+    margin: 50px 0px 0px 0px;
+    width: 1520px;
+    background: url('../../../public/vrbox.jpg');
+    background-size: 1520px;
+    background-position-y: -50px;
+    background-repeat:no-repeat;
+    position: relative;
+    height: 400px;
+h1{width: 500px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    margin: 50px 0px 0px 0px ;
+    left: 100px;
+}
+a{border: 1px solid white;
+    padding: 10px 10px ;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 230px;
+    background-color: white;
+    height: 50px;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    margin: 190px 0px 0px 0px ;
+    left: 100px;
+    &:hover{
+            background-color: #000000;
+            color: white;
+        }}
+
+    }

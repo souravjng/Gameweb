@@ -1,5 +1,6 @@
 .main{
-    width: 740px;
+    text-decoration: none;
+    width: 320px;
     height: 300px;
     overflow: hidden;
     border-radius: 4px;
@@ -25,6 +26,6 @@
     flex-direction: column;
     z-index: 4;
     
-h1{font-size: 17px;text-align: center;background-color: rgba(128, 128, 128, 0.615);color:#ffffff ; border-radius: 14px 14px 0px 0px;}
-p{ font-size: 18px;text-align: center;margin-top: 225px;background-color: grey;border-radius: 0px 0px 14px 14px;}
+h1{font-size: 17px;text-align: center;background-color: rgb(128, 128, 128);color:#ffffff ; border-radius: 14px 14px 0px 0px;}
+p{  font-size: 18px;text-align: center;margin-top: 225px;background-color: rgb(227, 225, 225);border-radius: 0px 0px 14px 14px;}
 }

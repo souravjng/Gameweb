@@ -3,6 +3,7 @@ import styles from './page.module.scss';
 const About = () => {
 
   return (
+    <div className={styles.supermain}>
     <div className={styles.main}>
     <div className={styles.img}></div>
     <div className={styles.text}><h1>Unveiling the Epic Saga of God of War 4</h1>
@@ -23,6 +24,7 @@ As you navigate through our pages, you will find:
 4. Community & Fan Art: Connect with fellow God of War enthusiasts through our forums and share your own fan art and creations inspired by the game.
 <br/>
 5. Updates & News: Stay up to date with the latest developments in the God of War universe, including news about upcoming sequels, adaptations, and more.</p></div>
+    </div>
     </div>
   );
 };
