@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './page.module.scss';
-import Productcard from '../../../components/productcard';
+import Productcard from '../../../components/Productcard';
 import img4 from '../../../public/smallcard1.jpg';
 import img2 from '../../../public/smallcard2.jpg';
 import img3 from '../../../public/smallcard3.jpg';

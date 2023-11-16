@@ -5,6 +5,8 @@
     flex-direction: row;
     background: none;position: absolute;z-index: 10;
     margin: 0px 0px 10px 0px;}
+
+
 .box1{
     flex:1;
     height: 60px;
@@ -17,12 +19,15 @@
     background-repeat: no-repeat;
     background-position: 50px -7px;
     justify-content: center;}
+@media only screen and (max-width: 768px) {.box1{display: none;}}
+
 .box2{
     flex:7;
     display: flex;
     overflow: hidden;
     flex-direction: row;
 }
+
 .bttn{
     border-left: 1px solid gray;
     border-top: 1px solid gray;
@@ -41,6 +46,8 @@ h3{margin: 0px 0px 0px 0px;
     margin: 22px 0px 0px 25px;
     box-shadow: none;
 }
+
+@media only screen and (max-width: 768px) {.bttn{padding: 0px 10px 0px 10px;width: 48px;font-size: 10px;height: 40px;}}
 .box3{
     flex:2;
 }
@@ -68,6 +75,8 @@ h1{
         margin: 10px 0px 0px 15px;
     }
 }
+@media only screen and (max-width: 768px) {.box3{display: none;}}
+
 .link {
     text-decoration: none;
     color: white;

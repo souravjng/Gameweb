@@ -1,4 +1,4 @@
-.main{
+.supermain{
     background: url('../../../public/contactbackground.jpg');
     background-size: cover;
     display: flex;
@@ -8,3 +8,65 @@
     height: 100vh;
     flex-direction: row;
 }
+.main {
+    padding: 90px;
+    border-radius: 5px;
+    height: 600px;
+    width: 700px;
+    margin: 0 auto;
+  
+    form {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.11);
+      padding: 30px 50px 10px 30px;
+      border-radius: 7px;
+      flex-direction: column;
+    }
+  
+    .formGroup {
+      margin-bottom: 10px;
+  
+      label {
+        font-weight: bold;
+      }
+  
+      input,
+      textarea {
+        width: 100%;
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+        margin: 5px 0;
+        background: none;
+        border: none;
+        box-shadow: -2px 2px 2px #e65100;
+        outline: none;
+        border-radius: 0px 0px 0px 10px;
+      }
+    }
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    width: 325px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 335px;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+.error{
+  margin: 0px 0px 0px 18px;
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: red;
+  font-size: 12px;
+
+}
+  

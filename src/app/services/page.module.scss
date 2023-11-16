@@ -92,6 +92,9 @@ a{border: 1px solid white;
             color: white;
         }}}
 
+@media only screen and (max-width: 768px) {.main4{a{font-size: 40px;}}}
+
+
     
 .main5{
     margin: 50px 0px 0px 0px;
@@ -129,3 +132,5 @@ a{border: 1px solid white;
         }}
 
     }
+
+    @media only screen and (max-width: 768px) {.main5{a{font-size: 40px;}}}
