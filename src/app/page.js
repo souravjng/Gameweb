@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div style={{ marginBottom: "200px" }}></div>
+      <div style={{ marginBottom: "900px" }}></div>
     </>
   );
 };
